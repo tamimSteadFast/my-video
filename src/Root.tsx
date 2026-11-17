@@ -1,14 +1,45 @@
 import { Composition, Folder } from "remotion";
-import { HelloWorld } from "./HelloWorld";
-import { Logo } from "./HelloWorld/Logo";
-import { Title } from "./HelloWorld/Title";
-
-// Each <Composition> is an entry in the sidebar!
+import { PagePilotPromo } from "./videos/pagepilot-promo/PagePilotPromo";
+import { TOTAL_FRAMES as PAGEPILOT_FRAMES } from "./videos/pagepilot-promo/narration";
+import { HelloWorld } from "./videos/hello-world/HelloWorld";
+import { Logo } from "./videos/hello-world/Logo";
+import { Title } from "./videos/hello-world/Title";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <Folder name="Elements">
+      <Folder name="PagePilot">
+        <Composition
+          id="PromoVertical"
+          component={PagePilotPromo}
+          durationInFrames={PAGEPILOT_FRAMES}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="PromoWide"
+          component={PagePilotPromo}
+          durationInFrames={PAGEPILOT_FRAMES}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      </Folder>
+
+      <Folder name="Examples">
+        <Composition
+          id="HelloWorld"
+          component={HelloWorld}
+          durationInFrames={150}
+          fps={30}
+          width={1920}
+          height={1080}
+          defaultProps={{
+            titleText: "Welcome to Remotion",
+            titleColor: "#000000",
+          }}
+        />
         <Composition
           id="Logo"
           component={Logo}
@@ -34,23 +65,6 @@ export const RemotionRoot: React.FC = () => {
           }}
         />
       </Folder>
-      <Composition
-        // You can take the "id" to render a video:
-        // bunx remotion render HelloWorld
-        id="HelloWorld"
-        component={HelloWorld}
-        durationInFrames={150}
-        fps={30}
-        width={1920}
-        height={1080}
-        // You can override these props for each render:
-        // https://www.remotion.dev/docs/parametrized-rendering
-        defaultProps={{
-          titleText: "Welcome to Remotion",
-          titleColor: "#000000",
-        }}
-      />
-
     </>
   );
 };

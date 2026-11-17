@@ -6,8 +6,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Logo } from "./HelloWorld/Logo";
-import { Title } from "./HelloWorld/Title";
+import { Logo } from "./Logo";
+import { Title } from "./Title";
 
 export type HelloWorldProps = {
   readonly titleText: string;
