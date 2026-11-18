@@ -1,6 +1,8 @@
 import { Composition, Folder } from "remotion";
 import { PagePilotPromo } from "./videos/pagepilot-promo/PagePilotPromo";
 import { TOTAL_FRAMES as PAGEPILOT_FRAMES } from "./videos/pagepilot-promo/narration";
+import { LlmExplainer } from "./videos/llm-explainer/LlmExplainer";
+import { LLM_TOTAL_FRAMES } from "./videos/llm-explainer/narration";
 import { HelloWorld } from "./videos/hello-world/HelloWorld";
 import { Logo } from "./videos/hello-world/Logo";
 import { Title } from "./videos/hello-world/Title";
@@ -24,6 +26,25 @@ export const RemotionRoot: React.FC = () => {
           fps={30}
           width={1920}
           height={1080}
+        />
+      </Folder>
+
+      <Folder name="LLM-Lesson-1">
+        <Composition
+          id="LlmExplainer"
+          component={LlmExplainer}
+          durationInFrames={LLM_TOTAL_FRAMES}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="LlmExplainerMobile"
+          component={LlmExplainer}
+          durationInFrames={LLM_TOTAL_FRAMES}
+          fps={30}
+          width={1080}
+          height={1920}
         />
       </Folder>
 

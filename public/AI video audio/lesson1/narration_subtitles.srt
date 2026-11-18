@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:14,000
+তুমি যখন ChatGPT-কে একটি প্রশ্ন করো, তখন কীভাবে সে এত দ্রুত উত্তর তৈরি করে? এর পেছনে কাজ করে Large Language Model, সংক্ষেপে LLM। আজ আমরা জানব, এই Model আসলে কীভাবে কাজ করে।
+
+2
+00:00:14,000 --> 00:00:28,000
+প্রথমে Model-এর কাছে পাঠানো Text-কে ছোট ছোট অংশে ভাগ করা হয়। এই অংশগুলোকে বলা হয় Token। আর Text-কে Token-এ ভাগ করার Process-এর নাম Tokenization। প্রতিটি Token-এর সঙ্গে একটি Numeric ID যুক্ত থাকে।
+
+3
+00:00:28,000 --> 00:00:42,000
+এরপর Token ID-গুলো Embedding-এর মাধ্যমে Numerical Vector-এ রূপান্তরিত হয়। এই Vector ব্যবহার করে Neural Network Language-এর বিভিন্ন Pattern এবং Context Process করতে পারে।
+
+4
+00:00:42,000 --> 00:00:57,000
+আধুনিক অধিকাংশ General-purpose LLM-এর ভিত্তি হলো Transformer Architecture। এর একটি গুরুত্বপূর্ণ অংশ হলো Self-Attention। এর মাধ্যমে Model Context-এর বিভিন্ন Token-এর মধ্যে সম্পর্ক বুঝে Relevant Information ব্যবহার করতে পারে।
+
+5
+00:00:57,000 --> 00:01:17,000
+Self-Attention বুঝতে Query, Key এবং Value জানতে হবে। Query হলো কী Information খোঁজা হচ্ছে, Key হলো অন্য Token-এর পরিচিতি এবং Value হলো সেই Token থেকে পাওয়া Information। এই প্রক্রিয়ায় Model Context অনুযায়ী গুরুত্বপূর্ণ Token-গুলোকে বেশি গুরুত্ব দিতে পারে।
+
+6
+00:01:17,000 --> 00:01:32,000
+LLM সাধারণত একবারে পুরো উত্তর তৈরি করে না। এটি পরবর্তী Token Predict করে। তারপর সেই Token-কে আগের Context-এর সঙ্গে যুক্ত করে আবার পরবর্তী Token Predict করে। এভাবে ধাপে ধাপে সম্পূর্ণ উত্তর তৈরি হয়।
+
+7
+00:01:32,000 --> 00:01:45,000
+Training-এর সময় Model Data থেকে শেখে এবং তার Weights Update হয়। কিন্তু Inference-এর সময় Model আগে শেখা Weights ব্যবহার করে নতুন উত্তর তৈরি করে। এই দুটি Process এক নয়।
+
+8
+00:01:45,000 --> 00:02:04,000
+একজন AI Engineer হিসেবে শুধু LLM ব্যবহার করলেই হবে না। Token Cost, Context Window, Latency, Hallucination এবং Response Quality বুঝতে হবে। কারণ একটি ভালো AI Application তৈরি করতে Model-এর পাশাপাশি পুরো System-কে Engineer করতে হয়।
+
