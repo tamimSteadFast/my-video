@@ -38,7 +38,8 @@
     "record:login": "node tools/recorder/login.mjs",
     "record:explore": "node tools/recorder/explore.mjs",
     "record:pagepilot": "node tools/recorder/pagepilot-clips.mjs",
-    "render:pagepilot": "remotion render PromoVertical out/pagepilot-promo/pagepilot-promo-1080x1920.mp4 && remotion render PromoWide out/pagepilot-promo/pagepilot-promo-1920x1080.mp4"
+    "render:pagepilot": "remotion render PromoVertical out/pagepilot-promo/pagepilot-promo-1080x1920.mp4 && remotion render PromoWide out/pagepilot-promo/pagepilot-promo-1920x1080.mp4",
+    "render:ai-engineer": "remotion render AiEngineerLesson1 out/ai-engineer/ai-engineer-lesson-1.mp4"
   },
   "allowScripts": {
     "esbuild": false

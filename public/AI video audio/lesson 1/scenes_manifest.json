@@ -1,0 +1,87 @@
+{
+  "title": "What is an AI Engineer?",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 8,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_curious_scene_1.wav",
+      "emotion": "Curious",
+      "targetDuration": 10,
+      "actualDuration": 16,
+      "narration": "আমরা প্রতিদিন ChatGPT ব্যবহার করছি, AI দিয়ে ছবি তৈরি করছি, এমনকি AI Coding Assistant দিয়ে Software Development-ও করছি। কিন্তু যারা এসব Intelligent System তৈরি করেন, তাদের আমরা কী বলি? তারা হলেন AI Engineer।",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_explanatory_scene_2.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 17,
+      "narration": "AI Engineer হলেন একজন Software Professional, যিনি Artificial Intelligence ব্যবহার করে Intelligent Software System Design, Develop, Integrate এবং Deploy করেন। তাদের মূল লক্ষ্য হলো AI Technology ব্যবহার করে বাস্তব জীবনের সমস্যার কার্যকর সমাধান তৈরি করা।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_analytical_scene_3.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 18,
+      "narration": "ধরো, তুমি একটি E-commerce Application তৈরি করছ। একজন Traditional Software Engineer Product Management, Database, API এবং Payment System তৈরি করবেন। কিন্তু একজন AI Engineer এখানে Intelligent Product Recommendation এবং AI Customer Support System যুক্ত করতে পারেন।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_educational_scene_4.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 13,
+      "narration": "একজন AI Engineer-এর গুরুত্বপূর্ণ কাজগুলোর মধ্যে রয়েছে AI Model Integration, Prompt Engineering, RAG Development, AI Agent তৈরি, Backend API Development এবং Production Deployment।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_explanatory_scene_5.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 12,
+      "narration": "এই কাজগুলো করার জন্য Python, JavaScript, FastAPI, Large Language Models, Vector Database, LangChain এবং Cloud Technologies-এর মতো বিভিন্ন Technology ব্যবহার করা হয়।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_analytical_scene_6.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "একটি বিষয় মনে রাখতে হবে। AI Engineer মানেই নিজে একটি AI Model তৈরি বা Train করা নয়। অনেক সময় Existing Pre-trained Model ব্যবহার করে সেটিকে Software Application-এর সঙ্গে Integrate করাই একজন AI Engineer-এর প্রধান কাজ।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_inspirational_scene_7.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 15,
+      "actualDuration": 13,
+      "narration": "একজন AI Engineer শুধু AI Model ব্যবহার করেন না। তিনি সেই Model-কে Database, Backend, API এবং User Interface-এর সঙ্গে যুক্ত করে একটি সম্পূর্ণ Intelligent Software System তৈরি করেন।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_motivational_scene_8.wav",
+      "emotion": "Motivational",
+      "targetDuration": 10,
+      "actualDuration": 13,
+      "narration": "আমাদের এই Learning Journey-তে আমরা Step by Step AI Engineering শিখব এবং বাস্তব Project তৈরি করব। পরবর্তী Lesson-এ আমরা জানব AI Engineer এবং Machine Learning Engineer-এর মধ্যে পার্থক্য কী।",
+      "generated": true
+    }
+  ]
+}

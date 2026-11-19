@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:16,000
+আমরা প্রতিদিন ChatGPT ব্যবহার করছি, AI দিয়ে ছবি তৈরি করছি, এমনকি AI Coding Assistant দিয়ে Software Development-ও করছি। কিন্তু যারা এসব Intelligent System তৈরি করেন, তাদের আমরা কী বলি? তারা হলেন AI Engineer।
+
+2
+00:00:16,000 --> 00:00:33,000
+AI Engineer হলেন একজন Software Professional, যিনি Artificial Intelligence ব্যবহার করে Intelligent Software System Design, Develop, Integrate এবং Deploy করেন। তাদের মূল লক্ষ্য হলো AI Technology ব্যবহার করে বাস্তব জীবনের সমস্যার কার্যকর সমাধান তৈরি করা।
+
+3
+00:00:33,000 --> 00:00:51,000
+ধরো, তুমি একটি E-commerce Application তৈরি করছ। একজন Traditional Software Engineer Product Management, Database, API এবং Payment System তৈরি করবেন। কিন্তু একজন AI Engineer এখানে Intelligent Product Recommendation এবং AI Customer Support System যুক্ত করতে পারেন।
+
+4
+00:00:51,000 --> 00:01:04,000
+একজন AI Engineer-এর গুরুত্বপূর্ণ কাজগুলোর মধ্যে রয়েছে AI Model Integration, Prompt Engineering, RAG Development, AI Agent তৈরি, Backend API Development এবং Production Deployment।
+
+5
+00:01:04,000 --> 00:01:16,000
+এই কাজগুলো করার জন্য Python, JavaScript, FastAPI, Large Language Models, Vector Database, LangChain এবং Cloud Technologies-এর মতো বিভিন্ন Technology ব্যবহার করা হয়।
+
+6
+00:01:16,000 --> 00:01:31,000
+একটি বিষয় মনে রাখতে হবে। AI Engineer মানেই নিজে একটি AI Model তৈরি বা Train করা নয়। অনেক সময় Existing Pre-trained Model ব্যবহার করে সেটিকে Software Application-এর সঙ্গে Integrate করাই একজন AI Engineer-এর প্রধান কাজ।
+
+7
+00:01:31,000 --> 00:01:44,000
+একজন AI Engineer শুধু AI Model ব্যবহার করেন না। তিনি সেই Model-কে Database, Backend, API এবং User Interface-এর সঙ্গে যুক্ত করে একটি সম্পূর্ণ Intelligent Software System তৈরি করেন।
+
+8
+00:01:44,000 --> 00:01:57,000
+আমাদের এই Learning Journey-তে আমরা Step by Step AI Engineering শিখব এবং বাস্তব Project তৈরি করব। পরবর্তী Lesson-এ আমরা জানব AI Engineer এবং Machine Learning Engineer-এর মধ্যে পার্থক্য কী।
+

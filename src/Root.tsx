@@ -1,4 +1,9 @@
 import { Composition, Folder } from "remotion";
+import { AiEngineerVideo } from "./videos/ai-engineer/AiEngineerVideo";
+import {
+  AIE_TOTAL_FRAMES,
+  aiEngineerSchema,
+} from "./videos/ai-engineer/narration";
 import { PagePilotPromo } from "./videos/pagepilot-promo/PagePilotPromo";
 import { TOTAL_FRAMES as PAGEPILOT_FRAMES } from "./videos/pagepilot-promo/narration";
 import { LlmExplainer } from "./videos/llm-explainer/LlmExplainer";
@@ -10,6 +15,19 @@ import { Title } from "./videos/hello-world/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="AI-Engineer-Lesson-1">
+        <Composition
+          id="AiEngineerLesson1"
+          component={AiEngineerVideo}
+          schema={aiEngineerSchema}
+          defaultProps={{ showSubtitles: true }}
+          durationInFrames={AIE_TOTAL_FRAMES}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      </Folder>
+
       <Folder name="PagePilot">
         <Composition
           id="PromoVertical"
