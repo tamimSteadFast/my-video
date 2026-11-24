@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:11,000
+একটি Software Product কীভাবে আরও Intelligent, Faster এবং Personalized হতে পারে? এর পেছনে গুরুত্বপূর্ণ ভূমিকা রাখছে Artificial Intelligence এবং AI Engineering।
+
+2
+00:00:11,000 --> 00:00:24,000
+Traditional Software Development-এ Developer নির্দিষ্ট Business Rules এবং Logic লিখে দেন। কিন্তু AI-powered Software Data থেকে Pattern শিখতে পারে, Prediction তৈরি করতে পারে এবং Intelligent Decision নিতে সাহায্য করে।
+
+3
+00:00:24,000 --> 00:00:36,000
+প্রথমত, AI Product Development-এ Automation নিয়ে আসে। Customer Support, Data Processing এবং Software Testing-এর মতো Repetitive Task Automate করে Development Process আরও Efficient করা সম্ভব।
+
+4
+00:00:36,000 --> 00:00:48,000
+দ্বিতীয়ত, AI Data-driven Decision Making সহজ করে। বিপুল পরিমাণ Data Analyze করে Customer Behaviour, Product Performance এবং Business Trends সম্পর্কে Useful Insights দিতে পারে।
+
+5
+00:00:48,000 --> 00:01:00,000
+তৃতীয়ত, AI Personalized User Experience তৈরি করে। যেমন Netflix তোমার Viewing History Analyze করে Movie Recommend করে। আবার E-commerce Platform তোমার পছন্দ অনুযায়ী Product Suggest করতে পারে।
+
+6
+00:01:00,000 --> 00:01:14,000
+চতুর্থত, Predictive Maintenance এবং Quality Control। AI Sensor Data এবং Historical Data Analyze করে সম্ভাব্য সমস্যা আগে থেকেই শনাক্ত করতে পারে। এতে Unexpected Downtime এবং Operational Cost কমানো সম্ভব।
+
+7
+00:01:14,000 --> 00:01:27,000
+সবশেষে, AI Development Cycle দ্রুত করতে, Innovation বাড়াতে এবং Product Quality উন্নত করতে সাহায্য করে। তবে এর জন্য প্রয়োজন সঠিক Architecture, Reliable Data এবং Proper Evaluation।
+
+8
+00:01:27,000 --> 00:01:41,000
+একজন AI Engineer হিসেবে আমাদের কাজ শুধু AI Model Integrate করা নয়। বরং বাস্তব Business Problem বুঝে Intelligent এবং Reliable Software Product তৈরি করা। এটাই AI Engineering-এর আসল Impact।
+

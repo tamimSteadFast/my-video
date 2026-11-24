@@ -12,6 +12,7 @@
     "@remotion/cli": "4.0.544",
     "@remotion/google-fonts": "4.0.544",
     "@remotion/media": "4.0.544",
+    "@remotion/media-utils": "4.0.544",
     "@remotion/zod-types": "4.0.544",
     "gsap": "^3.15.1",
     "install": "^0.13.0",
@@ -39,7 +40,16 @@
     "record:explore": "node tools/recorder/explore.mjs",
     "record:pagepilot": "node tools/recorder/pagepilot-clips.mjs",
     "render:pagepilot": "remotion render PromoVertical out/pagepilot-promo/pagepilot-promo-1080x1920.mp4 && remotion render PromoWide out/pagepilot-promo/pagepilot-promo-1920x1080.mp4",
-    "render:ai-engineer": "remotion render AiEngineerLesson1 out/ai-engineer/ai-engineer-lesson-1.mp4"
+    "render:ai-engineer": "remotion render AiEngineerLesson1 out/ai-engineer/ai-engineer-lesson-1.mp4",
+    "render:ai-product:vertical": "remotion render AiProductLesson3Vertical out/ai-product/ai-product-lesson-3-9x16.mp4",
+    "render:ai-product": "remotion render AiProductLesson3-1080p out/ai-product/ai-product-lesson-3-1080p.mp4",
+    "render:ai-product:4k": "remotion render AiProductLesson3 out/ai-product/ai-product-lesson-3-4k.mp4",
+    "check:lesson4:raea": "raea check --quick raea/lesson-4/edit.tsx",
+    "render:lesson4:raea": "raea render raea/lesson-4/edit.tsx -o out/lesson-4/lesson-4-ai-vs-ml-9x16.mp4 --manifest out/lesson-4/render.json",
+    "check:lesson5:raea": "raea check --quick --shape 9:16 --platform reels raea/lesson-5/edit.tsx",
+    "render:lesson5:raea": "raea render raea/lesson-5/edit.tsx -o out/lesson-5/lesson-5-how-llms-work-9x16.mp4 --manifest out/lesson-5/render.json",
+    "render:github-actions": "remotion render GitHubActionsStory out/github-actions-story.mp4",
+    "render:vps-build": "remotion render VPSBuildStory out/vps-build-story.mp4"
   },
   "allowScripts": {
     "esbuild": false

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:14,000
+তুমি যখন ChatGPT-কে একটি প্রশ্ন করো, তখন কয়েক সেকেন্ডের মধ্যেই কীভাবে সে এত সুন্দর একটি উত্তর তৈরি করে? এর পেছনে রয়েছে একটি Powerful AI Technology, যার নাম Large Language Model বা LLM।
+
+2
+00:00:14,000 --> 00:00:28,000
+Large Language Model হলো এমন একটি AI Model, যেটি বিশাল পরিমাণ Text Data থেকে Language-এর Pattern এবং শব্দের সম্পর্ক শেখে। এর মূল কাজ হলো Context বুঝে পরবর্তী সম্ভাব্য Token Predict করা।
+
+3
+00:00:28,000 --> 00:00:41,000
+LLM-এর প্রথম গুরুত্বপূর্ণ ধাপ হলো Tokenization। আমরা যখন একটি Prompt পাঠাই, তখন সেটিকে ছোট ছোট Token-এ ভাগ করা হয়। একটি Token সম্পূর্ণ Word হতে পারে, আবার Word-এর একটি অংশও হতে পারে।
+
+4
+00:00:41,000 --> 00:00:56,000
+এরপর প্রতিটি Token-কে Numerical Vector বা Embedding-এ Convert করা হয়। কারণ Neural Network সরাসরি Text নিয়ে কাজ করে না। Numerical Representation ব্যবহার করে Model বিভিন্ন শব্দের সম্পর্ক এবং Context Process করতে পারে।
+
+5
+00:00:56,000 --> 00:01:14,000
+এরপর এই Data প্রবেশ করে Transformer Architecture-এ। Transformer-এর একটি গুরুত্বপূর্ণ Component হলো Self-Attention। এটি Sentence-এর বিভিন্ন Token-এর মধ্যে সম্পর্ক বিশ্লেষণ করে এবং কোন Token কোন Context-এ বেশি গুরুত্বপূর্ণ, তা নির্ধারণ করতে সাহায্য করে।
+
+6
+00:01:14,000 --> 00:01:28,000
+Transformer Processing-এর পর Model Vocabulary-এর বিভিন্ন Token-এর জন্য Probability Score তৈরি করে। এরপর Decoding Strategy ব্যবহার করে পরবর্তী Token নির্বাচন করা হয়। এই প্রক্রিয়াটি বারবার চলতে থাকে।
+
+7
+00:01:28,000 --> 00:01:42,000
+এই পুরো প্রক্রিয়াকে আমরা Next Token Prediction বলতে পারি। অর্থাৎ Model একটি Token Generate করে, সেটিকে Context-এর সঙ্গে যুক্ত করে এবং আবার পরবর্তী Token Predict করে। এভাবেই ধীরে ধীরে একটি সম্পূর্ণ Response তৈরি হয়।
+
+8
+00:01:42,000 --> 00:01:57,000
+LLM বোঝার জন্য Training এবং Inference-এর পার্থক্য জানা জরুরি। Training-এর সময় Model বিশাল Data থেকে শেখে এবং তার Parameters Update হয়। অন্যদিকে Inference-এর সময় Trained Model ব্যবহার করে User-এর Prompt অনুযায়ী Response Generate করে।
+
+9
+00:01:57,000 --> 00:02:13,000
+একজন AI Engineer হিসেবে আমাদের Tokenization, Embedding, Transformer, Context Window, Token Usage এবং Inference সম্পর্কে পরিষ্কার ধারণা থাকতে হবে। কারণ এগুলো দিয়েই আমরা Efficient এবং Production-ready AI Application তৈরি করি।
+
+10
+00:02:13,000 --> 00:02:25,000
+এখন তুমি জানো একটি LLM কীভাবে কাজ করে। পরবর্তী ধাপে আমরা আরও গভীরে গিয়ে Tokenization এবং Embedding নিয়ে শিখব। AI Engineering শেখার এই Journey-তে আমাদের সঙ্গে থাকো।
+

@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:12,000
+রাত তখন এগারোটা। ঢাকার একটি Startup-এ কাজ করে Developer রাফি। কাল সকালেই Client Demo। তাড়াহুড়ো করে সে Code Push করল, Server-এ Deploy করল, তারপর ঘুমাতে গেল।
+
+2
+00:00:12,000 --> 00:00:22,000
+সকালে Client Website খুলতেই দেখা গেল, পুরো Page সাদা! পরে জানা গেল, তাড়াহুড়োয় রাফি Test চালাতেই ভুলে গিয়েছিল।
+
+3
+00:00:22,000 --> 00:00:36,000
+সেদিন Senior Developer নাদিয়া আপু বললেন, রাফি, মানুষ ভুল করবেই। তাই যে কাজ প্রতিবার একইভাবে করতে হয়, সেটা Machine-কে দাও। চলো, তোমাকে GitHub Actions দেখাই।
+
+4
+00:00:36,000 --> 00:00:53,000
+GitHub Actions হলো GitHub-এর নিজস্ব Automation Tool। এটি দিয়ে তৈরি হয় CI/CD Pipeline। CI মানে Continuous Integration, আর CD মানে Continuous Deployment। আর সব নিয়ম লেখা থাকে একটি Workflow File-এ।
+
+5
+00:00:53,000 --> 00:01:09,000
+নাদিয়া আপু Project-এ খুললেন dot github, তারপর workflows Folder। সেখানে তৈরি করলেন একটি YAML File। প্রথমেই লিখলেন on, অর্থাৎ কোন Event-এ Workflow চালু হবে। যেমন main Branch-এ Push বা Pull Request।
+
+6
+00:01:09,000 --> 00:01:23,000
+তারপর লিখলেন build নামে একটি Job। এই Job চলবে একটি Runner-এ, মানে GitHub-এর দেওয়া একটি Virtual Machine, ubuntu-latest। রাফি অবাক হলো। নিজের কোনো Server ছাড়াই!
+
+7
+00:01:23,000 --> 00:01:41,000
+এরপর এলো Steps। প্রথমে actions/checkout দিয়ে Code নামানো, তারপর setup-node দিয়ে Node.js সেট করা, এরপর npm ci দিয়ে Dependency Install, তারপর npm test, আর শেষে npm run build।
+
+8
+00:01:41,000 --> 00:01:57,000
+এবার পরীক্ষার পালা। রাফি ইচ্ছে করে সেই আগের ভুলটাই আবার Push করল। কিছুক্ষণের মধ্যেই npm test Step লাল হয়ে গেল। Workflow সেখানেই থেমে গেল, ভুল Code আর Deploy হলো না।
+
+9
+00:01:57,000 --> 00:02:12,000
+ভুল ঠিক করে আবার Push করতেই সব Step-এ সবুজ Tick। Pull Request-এ দেখা গেল All checks passed। নাদিয়া আপু মনে করিয়ে দিলেন, Password বা API Key সবসময় রাখতে হবে GitHub Secrets-এ।
+
+10
+00:02:12,000 --> 00:02:24,000
+সেদিনের পর রাফি আর কখনো ভয় নিয়ে Deploy করেনি। কারণ এখন প্রতিটি Push পাহারা দেয় GitHub Actions। আর তুমি? তোমার প্রথম Workflow কবে লিখছ?
+

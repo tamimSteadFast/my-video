@@ -1,0 +1,87 @@
+{
+  "title": "Impact of AI Engineering on Product Development",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 8,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_curious_scene_1.wav",
+      "emotion": "Curious",
+      "targetDuration": 10,
+      "actualDuration": 11,
+      "narration": "একটি Software Product কীভাবে আরও Intelligent, Faster এবং Personalized হতে পারে? এর পেছনে গুরুত্বপূর্ণ ভূমিকা রাখছে Artificial Intelligence এবং AI Engineering।",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_explanatory_scene_2.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 13,
+      "actualDuration": 13,
+      "narration": "Traditional Software Development-এ Developer নির্দিষ্ট Business Rules এবং Logic লিখে দেন। কিন্তু AI-powered Software Data থেকে Pattern শিখতে পারে, Prediction তৈরি করতে পারে এবং Intelligent Decision নিতে সাহায্য করে।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_educational_scene_3.wav",
+      "emotion": "Educational",
+      "targetDuration": 12,
+      "actualDuration": 12,
+      "narration": "প্রথমত, AI Product Development-এ Automation নিয়ে আসে। Customer Support, Data Processing এবং Software Testing-এর মতো Repetitive Task Automate করে Development Process আরও Efficient করা সম্ভব।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_analytical_scene_4.wav",
+      "emotion": "Analytical",
+      "targetDuration": 13,
+      "actualDuration": 12,
+      "narration": "দ্বিতীয়ত, AI Data-driven Decision Making সহজ করে। বিপুল পরিমাণ Data Analyze করে Customer Behaviour, Product Performance এবং Business Trends সম্পর্কে Useful Insights দিতে পারে।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_engaging_scene_5.wav",
+      "emotion": "Engaging",
+      "targetDuration": 13,
+      "actualDuration": 12,
+      "narration": "তৃতীয়ত, AI Personalized User Experience তৈরি করে। যেমন Netflix তোমার Viewing History Analyze করে Movie Recommend করে। আবার E-commerce Platform তোমার পছন্দ অনুযায়ী Product Suggest করতে পারে।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_explanatory_scene_6.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 13,
+      "actualDuration": 14,
+      "narration": "চতুর্থত, Predictive Maintenance এবং Quality Control। AI Sensor Data এবং Historical Data Analyze করে সম্ভাব্য সমস্যা আগে থেকেই শনাক্ত করতে পারে। এতে Unexpected Downtime এবং Operational Cost কমানো সম্ভব।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_inspirational_scene_7.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 13,
+      "actualDuration": 13,
+      "narration": "সবশেষে, AI Development Cycle দ্রুত করতে, Innovation বাড়াতে এবং Product Quality উন্নত করতে সাহায্য করে। তবে এর জন্য প্রয়োজন সঠিক Architecture, Reliable Data এবং Proper Evaluation।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_motivational_scene_8.wav",
+      "emotion": "Motivational",
+      "targetDuration": 10,
+      "actualDuration": 14,
+      "narration": "একজন AI Engineer হিসেবে আমাদের কাজ শুধু AI Model Integrate করা নয়। বরং বাস্তব Business Problem বুঝে Intelligent এবং Reliable Software Product তৈরি করা। এটাই AI Engineering-এর আসল Impact।",
+      "generated": true
+    }
+  ]
+}

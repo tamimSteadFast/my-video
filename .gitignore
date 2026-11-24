@@ -6,3 +6,11 @@ dist
 # Ignore the output video from Git but not videos you import into src/.
 out
 .auth/
+
+# Audio files in public/
+public/**/*.mp3
+public/**/*.wav
+public/**/*.m4a
+public/**/*.ogg
+public/**/*.aac
+public/**/*.flac

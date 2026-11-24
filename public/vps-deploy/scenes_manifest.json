@@ -1,0 +1,107 @@
+{
+  "title": "ছোট VPS-এ Build করলে কেন Server Crash করে? — রাফির গল্প ২",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_happy_scene_1.wav",
+      "emotion": "Happy",
+      "targetDuration": 12,
+      "actualDuration": 13,
+      "narration": "আগের সেই ভুলের পর রাফি এখন অনেক সাবধান। নতুন Client-এর জন্য সে কম খরচে একটি VPS নিল। মাত্র 1 GB RAM আর 1 Core CPU। খরচ কম, Client-ও খুশি।",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_confident_scene_2.wav",
+      "emotion": "Confident",
+      "targetDuration": 15,
+      "actualDuration": 13,
+      "narration": "প্রতিবার Update দিতে রাফি SSH দিয়ে Server-এ ঢোকে। তারপর git pull, npm install, আর npm run build। প্রথম কয়েক সপ্তাহ সবকিছু ঠিকঠাকই চলছিল।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_tense_scene_3.wav",
+      "emotion": "Tense",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "কিন্তু Project বড় হতে থাকল। একদিন Build চালাতেই Terminal আটকে গেল। কয়েক মিনিট পর Screen-এ শুধু একটি শব্দ, Killed। আর ঠিক তখনই Live Website বন্ধ হয়ে গেল।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_shocked_scene_4.wav",
+      "emotion": "Shocked",
+      "targetDuration": 15,
+      "actualDuration": 12,
+      "narration": "একটার পর একটা Client-এর ফোন আসতে থাকল। রাফি htop খুলে দেখল, RAM একশো শতাংশ, CPU-ও একশো শতাংশ। SSH পর্যন্ত Freeze হয়ে যাচ্ছে।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_explanatory_scene_5.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "নাদিয়া আপু বুঝিয়ে বললেন, npm install আর Build চলার সময় অনেক RAM লাগে। RAM শেষ হলে Linux-এর Out of Memory Killer Process-টাকেই বন্ধ করে দেয়। আর একই Server-এ চলা Website-ও আটকে যায়।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_reflective_scene_6.wav",
+      "emotion": "Reflective",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "রাফি বলল, তাহলে বড় VPS নিই? আপু হেসে বললেন, মাত্র কয়েক মিনিটের Build-এর জন্য প্রতি মাসে বেশি টাকা দেবে? ভেবে দেখো, রেস্টুরেন্টে রান্না হয় Kitchen-এ, Customer-এর টেবিলে নয়।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_engaging_scene_7.wav",
+      "emotion": "Engaging",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "আমাদের Kitchen হবে GitHub Actions-এর Runner, যেখানে VPS-এর চেয়ে অনেক বেশি RAM আর CPU আছে। Code Push করলেই Runner-এ npm ci আর npm run build চলবে। VPS-এর ওপর কোনো চাপই পড়বে না।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_educational_scene_8.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "Build শেষে তৈরি হয় একটি dist Folder। Deploy Step-এ rsync দিয়ে শুধু এই Folder পাঠানো হয় VPS-এ। আর Server-এ ঢোকার SSH Key নিরাপদে রাখা থাকে GitHub Secrets-এ।",
+      "generated": true
+    },
+    {
+      "scene": 9,
+      "title": "Scene 9",
+      "fileName": "scene_09_relieved_scene_9.wav",
+      "emotion": "Relieved",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "এবার রাফি Push করল। কয়েক মিনিটেই নতুন Version Live। htop-এ RAM একদম শান্ত, Website একবারও বন্ধ হয়নি। আর Build Fail করলে কিছুই Deploy হয় না, পুরনো Site চলতেই থাকে।",
+      "generated": true
+    },
+    {
+      "scene": 10,
+      "title": "Scene 10",
+      "fileName": "scene_10_inspirational_scene_10.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 13,
+      "actualDuration": 12,
+      "narration": "সেদিন রাফি একটি দামি কথা শিখল। Server-এর কাজ Serve করা, Build করা নয়। আর তোমার Server-এ কি এখনো Build চলছে? Comment-এ জানাও।",
+      "generated": true
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "How LLMs Work - Understanding Large Language Models",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_curious_scene_1.wav",
+      "emotion": "Curious",
+      "targetDuration": 12,
+      "actualDuration": 14,
+      "narration": "তুমি যখন ChatGPT-কে একটি প্রশ্ন করো, তখন কয়েক সেকেন্ডের মধ্যেই কীভাবে সে এত সুন্দর একটি উত্তর তৈরি করে? এর পেছনে রয়েছে একটি Powerful AI Technology, যার নাম Large Language Model বা LLM।",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_explanatory_scene_2.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "Large Language Model হলো এমন একটি AI Model, যেটি বিশাল পরিমাণ Text Data থেকে Language-এর Pattern এবং শব্দের সম্পর্ক শেখে। এর মূল কাজ হলো Context বুঝে পরবর্তী সম্ভাব্য Token Predict করা।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_educational_scene_3.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 13,
+      "narration": "LLM-এর প্রথম গুরুত্বপূর্ণ ধাপ হলো Tokenization। আমরা যখন একটি Prompt পাঠাই, তখন সেটিকে ছোট ছোট Token-এ ভাগ করা হয়। একটি Token সম্পূর্ণ Word হতে পারে, আবার Word-এর একটি অংশও হতে পারে।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_analytical_scene_4.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "এরপর প্রতিটি Token-কে Numerical Vector বা Embedding-এ Convert করা হয়। কারণ Neural Network সরাসরি Text নিয়ে কাজ করে না। Numerical Representation ব্যবহার করে Model বিভিন্ন শব্দের সম্পর্ক এবং Context Process করতে পারে।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_engaging_scene_5.wav",
+      "emotion": "Engaging",
+      "targetDuration": 18,
+      "actualDuration": 18,
+      "narration": "এরপর এই Data প্রবেশ করে Transformer Architecture-এ। Transformer-এর একটি গুরুত্বপূর্ণ Component হলো Self-Attention। এটি Sentence-এর বিভিন্ন Token-এর মধ্যে সম্পর্ক বিশ্লেষণ করে এবং কোন Token কোন Context-এ বেশি গুরুত্বপূর্ণ, তা নির্ধারণ করতে সাহায্য করে।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_explanatory_scene_6.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "Transformer Processing-এর পর Model Vocabulary-এর বিভিন্ন Token-এর জন্য Probability Score তৈরি করে। এরপর Decoding Strategy ব্যবহার করে পরবর্তী Token নির্বাচন করা হয়। এই প্রক্রিয়াটি বারবার চলতে থাকে।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_analytical_scene_7.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "এই পুরো প্রক্রিয়াকে আমরা Next Token Prediction বলতে পারি। অর্থাৎ Model একটি Token Generate করে, সেটিকে Context-এর সঙ্গে যুক্ত করে এবং আবার পরবর্তী Token Predict করে। এভাবেই ধীরে ধীরে একটি সম্পূর্ণ Response তৈরি হয়।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_educational_scene_8.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "LLM বোঝার জন্য Training এবং Inference-এর পার্থক্য জানা জরুরি। Training-এর সময় Model বিশাল Data থেকে শেখে এবং তার Parameters Update হয়। অন্যদিকে Inference-এর সময় Trained Model ব্যবহার করে User-এর Prompt অনুযায়ী Response Generate করে।",
+      "generated": true
+    },
+    {
+      "scene": 9,
+      "title": "Scene 9",
+      "fileName": "scene_09_professional_scene_9.wav",
+      "emotion": "Professional",
+      "targetDuration": 15,
+      "actualDuration": 16,
+      "narration": "একজন AI Engineer হিসেবে আমাদের Tokenization, Embedding, Transformer, Context Window, Token Usage এবং Inference সম্পর্কে পরিষ্কার ধারণা থাকতে হবে। কারণ এগুলো দিয়েই আমরা Efficient এবং Production-ready AI Application তৈরি করি।",
+      "generated": true
+    },
+    {
+      "scene": 10,
+      "title": "Scene 10",
+      "fileName": "scene_10_inspirational_scene_10.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 12,
+      "actualDuration": 12,
+      "narration": "এখন তুমি জানো একটি LLM কীভাবে কাজ করে। পরবর্তী ধাপে আমরা আরও গভীরে গিয়ে Tokenization এবং Embedding নিয়ে শিখব। AI Engineering শেখার এই Journey-তে আমাদের সঙ্গে থাকো।",
+      "generated": true
+    }
+  ]
+}

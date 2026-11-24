@@ -1,0 +1,97 @@
+{
+  "title": "AI Engineer vs ML Engineer",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 9,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_curious_scene_1.wav",
+      "emotion": "Curious",
+      "targetDuration": 12,
+      "actualDuration": 11,
+      "narration": "তুমি যদি AI Engineering শিখতে চাও, তাহলে প্রথমেই একটি বিষয় পরিষ্কারভাবে জানা দরকার। AI Engineer এবং ML Engineer কি একই কাজ করেন? নাকি তাদের মধ্যে রয়েছে গুরুত্বপূর্ণ পার্থক্য?",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_explanatory_scene_2.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "একজন AI Engineer মূলত Existing AI Model এবং Pre-trained Model ব্যবহার করে বাস্তব Software Application তৈরি করেন। তিনি AI Model-কে Backend, API, Database এবং Frontend-এর সঙ্গে Integrate করেন।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_practical_scene_3.wav",
+      "emotion": "Practical",
+      "targetDuration": 15,
+      "actualDuration": 17,
+      "narration": "উদাহরণ হিসেবে ধরো, তুমি একটি AI Customer Support Chatbot তৈরি করতে চাও। একজন AI Engineer OpenAI অথবা Gemini API ব্যবহার করে Chatbot তৈরি করতে পারেন। পাশাপাশি RAG এবং Vector Database ব্যবহার করে Company-এর নিজস্ব Document থেকে উত্তর দেওয়ার ব্যবস্থা করতে পারেন।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_analytical_scene_4.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "অন্যদিকে, একজন Machine Learning Engineer মূলত Data এবং Machine Learning Model নিয়ে কাজ করেন। তিনি Data Preprocessing, Feature Engineering, Model Training, Fine-tuning, Evaluation এবং Model Deployment-এর মতো কাজ করেন।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_explanatory_scene_5.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "ধরো, একটি E-commerce Website তার Customer-দের জন্য Product Recommendation System তৈরি করতে চায়। একজন ML Engineer Customer-এর পুরোনো Activity এবং Purchase History বিশ্লেষণ করে Recommendation Model তৈরি ও Train করতে পারেন।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_educational_scene_6.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "তাহলে মূল পার্থক্যটা কোথায়? AI Engineer-এর Focus হলো AI Model ব্যবহার করে Intelligent Application তৈরি করা। আর ML Engineer-এর Focus হলো Data থেকে Model তৈরি, Train, Optimize এবং Deploy করা।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_analytical_scene_7.wav",
+      "emotion": "Analytical",
+      "targetDuration": 15,
+      "actualDuration": 12,
+      "narration": "তবে মনে রাখবে, এই দুই Role-এর মধ্যে সবসময় কঠোর সীমারেখা থাকে না। একজন AI Engineer-ও Model Fine-tuning করতে পারেন। আবার একজন ML Engineer-ও Pre-trained Model ব্যবহার করতে পারেন।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_inspirational_scene_8.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 15,
+      "actualDuration": 17,
+      "narration": "তুমি যদি একজন Web Developer হও, তাহলে AI Engineering দিয়ে শুরু করা একটি Practical Approach হতে পারে। প্রথমে Python, LLM API, Prompt Engineering, Embeddings, Vector Database এবং RAG শেখো। এরপর নিজের AI-powered Application তৈরি করো।",
+      "generated": true
+    },
+    {
+      "scene": 9,
+      "title": "Scene 9",
+      "fileName": "scene_09_energetic_scene_9.wav",
+      "emotion": "Energetic",
+      "targetDuration": 12,
+      "actualDuration": 15,
+      "narration": "আমাদের লক্ষ্য শুধু AI সম্পর্কে জানা নয়, বরং Step by Step বাস্তব AI Application তৈরি করা। তুমি কি AI Engineer হতে চাও? কমেন্টে জানাও। আর পরবর্তী Lesson-এ আমরা জানব, Large Language Model বা LLM আসলে কী!",
+      "generated": true
+    }
+  ]
+}

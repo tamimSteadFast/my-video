@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:11,000
+তুমি যদি AI Engineering শিখতে চাও, তাহলে প্রথমেই একটি বিষয় পরিষ্কারভাবে জানা দরকার। AI Engineer এবং ML Engineer কি একই কাজ করেন? নাকি তাদের মধ্যে রয়েছে গুরুত্বপূর্ণ পার্থক্য?
+
+2
+00:00:11,000 --> 00:00:26,000
+একজন AI Engineer মূলত Existing AI Model এবং Pre-trained Model ব্যবহার করে বাস্তব Software Application তৈরি করেন। তিনি AI Model-কে Backend, API, Database এবং Frontend-এর সঙ্গে Integrate করেন।
+
+3
+00:00:26,000 --> 00:00:43,000
+উদাহরণ হিসেবে ধরো, তুমি একটি AI Customer Support Chatbot তৈরি করতে চাও। একজন AI Engineer OpenAI অথবা Gemini API ব্যবহার করে Chatbot তৈরি করতে পারেন। পাশাপাশি RAG এবং Vector Database ব্যবহার করে Company-এর নিজস্ব Document থেকে উত্তর দেওয়ার ব্যবস্থা করতে পারেন।
+
+4
+00:00:43,000 --> 00:00:58,000
+অন্যদিকে, একজন Machine Learning Engineer মূলত Data এবং Machine Learning Model নিয়ে কাজ করেন। তিনি Data Preprocessing, Feature Engineering, Model Training, Fine-tuning, Evaluation এবং Model Deployment-এর মতো কাজ করেন।
+
+5
+00:00:58,000 --> 00:01:13,000
+ধরো, একটি E-commerce Website তার Customer-দের জন্য Product Recommendation System তৈরি করতে চায়। একজন ML Engineer Customer-এর পুরোনো Activity এবং Purchase History বিশ্লেষণ করে Recommendation Model তৈরি ও Train করতে পারেন।
+
+6
+00:01:13,000 --> 00:01:28,000
+তাহলে মূল পার্থক্যটা কোথায়? AI Engineer-এর Focus হলো AI Model ব্যবহার করে Intelligent Application তৈরি করা। আর ML Engineer-এর Focus হলো Data থেকে Model তৈরি, Train, Optimize এবং Deploy করা।
+
+7
+00:01:28,000 --> 00:01:40,000
+তবে মনে রাখবে, এই দুই Role-এর মধ্যে সবসময় কঠোর সীমারেখা থাকে না। একজন AI Engineer-ও Model Fine-tuning করতে পারেন। আবার একজন ML Engineer-ও Pre-trained Model ব্যবহার করতে পারেন।
+
+8
+00:01:40,000 --> 00:01:57,000
+তুমি যদি একজন Web Developer হও, তাহলে AI Engineering দিয়ে শুরু করা একটি Practical Approach হতে পারে। প্রথমে Python, LLM API, Prompt Engineering, Embeddings, Vector Database এবং RAG শেখো। এরপর নিজের AI-powered Application তৈরি করো।
+
+9
+00:01:57,000 --> 00:02:12,000
+আমাদের লক্ষ্য শুধু AI সম্পর্কে জানা নয়, বরং Step by Step বাস্তব AI Application তৈরি করা। তুমি কি AI Engineer হতে চাও? কমেন্টে জানাও। আর পরবর্তী Lesson-এ আমরা জানব, Large Language Model বা LLM আসলে কী!
+

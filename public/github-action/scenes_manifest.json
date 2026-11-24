@@ -1,0 +1,107 @@
+{
+  "title": "What is GitHub Actions? — রাফির গল্প",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_tense_scene_1.wav",
+      "emotion": "Tense",
+      "targetDuration": 12,
+      "actualDuration": 12,
+      "narration": "রাত তখন এগারোটা। ঢাকার একটি Startup-এ কাজ করে Developer রাফি। কাল সকালেই Client Demo। তাড়াহুড়ো করে সে Code Push করল, Server-এ Deploy করল, তারপর ঘুমাতে গেল।",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_worried_scene_2.wav",
+      "emotion": "Worried",
+      "targetDuration": 12,
+      "actualDuration": 10,
+      "narration": "সকালে Client Website খুলতেই দেখা গেল, পুরো Page সাদা! পরে জানা গেল, তাড়াহুড়োয় রাফি Test চালাতেই ভুলে গিয়েছিল।",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_reflective_scene_3.wav",
+      "emotion": "Reflective",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "সেদিন Senior Developer নাদিয়া আপু বললেন, রাফি, মানুষ ভুল করবেই। তাই যে কাজ প্রতিবার একইভাবে করতে হয়, সেটা Machine-কে দাও। চলো, তোমাকে GitHub Actions দেখাই।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_explanatory_scene_4.wav",
+      "emotion": "Explanatory",
+      "targetDuration": 15,
+      "actualDuration": 17,
+      "narration": "GitHub Actions হলো GitHub-এর নিজস্ব Automation Tool। এটি দিয়ে তৈরি হয় CI/CD Pipeline। CI মানে Continuous Integration, আর CD মানে Continuous Deployment। আর সব নিয়ম লেখা থাকে একটি Workflow File-এ।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_engaging_scene_5.wav",
+      "emotion": "Engaging",
+      "targetDuration": 15,
+      "actualDuration": 16,
+      "narration": "নাদিয়া আপু Project-এ খুললেন dot github, তারপর workflows Folder। সেখানে তৈরি করলেন একটি YAML File। প্রথমেই লিখলেন on, অর্থাৎ কোন Event-এ Workflow চালু হবে। যেমন main Branch-এ Push বা Pull Request।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_curious_scene_6.wav",
+      "emotion": "Curious",
+      "targetDuration": 15,
+      "actualDuration": 14,
+      "narration": "তারপর লিখলেন build নামে একটি Job। এই Job চলবে একটি Runner-এ, মানে GitHub-এর দেওয়া একটি Virtual Machine, ubuntu-latest। রাফি অবাক হলো। নিজের কোনো Server ছাড়াই!",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_educational_scene_7.wav",
+      "emotion": "Educational",
+      "targetDuration": 15,
+      "actualDuration": 18,
+      "narration": "এরপর এলো Steps। প্রথমে actions/checkout দিয়ে Code নামানো, তারপর setup-node দিয়ে Node.js সেট করা, এরপর npm ci দিয়ে Dependency Install, তারপর npm test, আর শেষে npm run build।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_suspenseful_scene_8.wav",
+      "emotion": "Suspenseful",
+      "targetDuration": 15,
+      "actualDuration": 16,
+      "narration": "এবার পরীক্ষার পালা। রাফি ইচ্ছে করে সেই আগের ভুলটাই আবার Push করল। কিছুক্ষণের মধ্যেই npm test Step লাল হয়ে গেল। Workflow সেখানেই থেমে গেল, ভুল Code আর Deploy হলো না।",
+      "generated": true
+    },
+    {
+      "scene": 9,
+      "title": "Scene 9",
+      "fileName": "scene_09_relieved_scene_9.wav",
+      "emotion": "Relieved",
+      "targetDuration": 15,
+      "actualDuration": 15,
+      "narration": "ভুল ঠিক করে আবার Push করতেই সব Step-এ সবুজ Tick। Pull Request-এ দেখা গেল All checks passed। নাদিয়া আপু মনে করিয়ে দিলেন, Password বা API Key সবসময় রাখতে হবে GitHub Secrets-এ।",
+      "generated": true
+    },
+    {
+      "scene": 10,
+      "title": "Scene 10",
+      "fileName": "scene_10_inspirational_scene_10.wav",
+      "emotion": "Inspirational",
+      "targetDuration": 13,
+      "actualDuration": 12,
+      "narration": "সেদিনের পর রাফি আর কখনো ভয় নিয়ে Deploy করেনি। কারণ এখন প্রতিটি Push পাহারা দেয় GitHub Actions। আর তুমি? তোমার প্রথম Workflow কবে লিখছ?",
+      "generated": true
+    }
+  ]
+}
