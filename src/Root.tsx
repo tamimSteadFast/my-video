@@ -1,4 +1,6 @@
 import { Composition, Folder } from "remotion";
+import { aiVsAgiSchema, AiVsAgiVideo } from "./videos/ai-vs-agi/AiVsAgiVideo";
+import { FPS as AI_VS_AGI_FPS, TOTAL_DURATION_FRAMES as AI_VS_AGI_TOTAL_FRAMES } from "./config/timing";
 import { ComponentTest } from "./ComponentTest";
 import { ComponentTestPart2 } from "./part2/ComponentTestPart2";
 import {
@@ -56,6 +58,41 @@ import { Title } from "./videos/hello-world/Title";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Folder name="AI-vs-AGI-Lesson-6">
+        <Composition
+          id="AIvsAGI-Landscape"
+          component={AiVsAgiVideo}
+          schema={aiVsAgiSchema}
+          defaultProps={{
+            hasVoiceover: true,
+            audioMode: "per-scene",
+            hasBgm: false,
+            hasSfx: true,
+            showSubtitles: false,
+          }}
+          durationInFrames={AI_VS_AGI_TOTAL_FRAMES}
+          fps={AI_VS_AGI_FPS}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="AIvsAGI-Vertical"
+          component={AiVsAgiVideo}
+          schema={aiVsAgiSchema}
+          defaultProps={{
+            hasVoiceover: true,
+            audioMode: "per-scene",
+            hasBgm: false,
+            hasSfx: true,
+            showSubtitles: false,
+          }}
+          durationInFrames={AI_VS_AGI_TOTAL_FRAMES}
+          fps={AI_VS_AGI_FPS}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
       <Folder name="VPS-Build-Story-Part2">
         <Composition
           id="VPSBuildStory"

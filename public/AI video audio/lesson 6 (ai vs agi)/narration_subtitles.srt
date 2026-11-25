@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:10,000
+আমরা প্রতিদিন ChatGPT, AI Image Generator এবং AI Coding Assistant ব্যবহার করছি। কিন্তু সব AI কি মানুষের মতো চিন্তা করতে পারে?
+
+2
+00:00:10,000 --> 00:00:25,000
+Artificial Intelligence বা AI হলো এমন একটি Technology, যার মাধ্যমে Computer System মানুষের বুদ্ধিমত্তার কিছু নির্দিষ্ট কাজ সম্পাদন করতে পারে। যেমন Pattern Recognition, Decision Making এবং Language Processing।
+
+3
+00:00:25,000 --> 00:00:41,000
+বর্তমানে আমরা মূলত Narrow AI ব্যবহার করি। Narrow AI নির্দিষ্ট কিছু Task-এ অত্যন্ত দক্ষ। যেমন একটি Image Recognition Model বিড়াল এবং কুকুর শনাক্ত করতে পারে। কিন্তু তাই বলে সে সব ধরনের কাজ করতে পারবে না।
+
+4
+00:00:41,000 --> 00:00:56,000
+অন্যদিকে AGI বা Artificial General Intelligence হলো এমন একটি Theoretical Intelligence, যা মানুষের মতো বিভিন্ন ধরনের কাজ শিখতে, বুঝতে, Reasoning করতে এবং নতুন পরিস্থিতিতে নিজের জ্ঞান প্রয়োগ করতে পারবে।
+
+5
+00:00:56,000 --> 00:01:09,000
+সহজভাবে বললে, Narrow AI নির্দিষ্ট কাজের জন্য তৈরি। কিন্তু AGI-এর লক্ষ্য হলো বিভিন্ন ধরনের Intellectual Task সম্পাদন করতে সক্ষম একটি General Intelligence তৈরি করা।
+
+6
+00:01:09,000 --> 00:01:21,000
+তাহলে কি AGI ইতিমধ্যে তৈরি হয়েছে? না। AGI এখনো একটি Research Goal। বর্তমানের Powerful AI Model-গুলোকে শুধু তাদের Capability দেখে AGI বলা যায় না।
+
+7
+00:01:21,000 --> 00:01:36,000
+একজন AI Engineer হিসেবে আমাদের কাজ হলো বর্তমান AI Technology-এর Capability এবং Limitation বুঝে বাস্তব সমস্যার সমাধান তৈরি করা। এটাই আমাদের AI Engineering Learning Journey-এর অন্যতম গুরুত্বপূর্ণ ভিত্তি।
+

@@ -64,3 +64,28 @@ npm run record:pagepilot
 # Render PagePilot promo (1080x1920 and 1920x1080)
 npm run render:pagepilot
 ```
+
+## AI vs AGI — Lesson 6 ("AI শিখি")
+
+Two responsive compositions registered under `AI-vs-AGI-Lesson-6` in `src/Root.tsx`:
+- `AIvsAGI-Landscape` (`1920×1080`, 30fps — YouTube / Facebook)
+- `AIvsAGI-Vertical` (`1080×1920`, 30fps — Reels / Shorts)
+
+### Adjusting Timings & Voiceover
+Edit **`src/config/timing.ts`**:
+1. **Scene durations**: Update any value (in seconds) inside `SCENE_DURATIONS_SEC`. `TOTAL_DURATION_FRAMES` recalculates automatically for both compositions.
+2. **Per-beat visual cues**: Fine-tune individual animation timestamps (in seconds relative to each scene) in `SCENE_CUES`.
+3. **Voiceover mode**:
+   - Default (`audioMode: "per-scene"`, `hasVoiceover: true`) plays the synced Lesson 6 WAV files from `public/AI video audio/lesson 6 (ai vs agi)/`.
+   - To use a single custom voiceover recording instead, place it at `public/voiceover.mp3` and set `audioMode: "single"` (and `hasVoiceover: true`) in `AUDIO_CONFIG` (or toggle it live in Remotion Studio's Props panel).
+4. **Background music**: Place a track at `public/bgm.mp3` and set `hasBgm: true` (plays at volume `0.08`).
+5. **Subtitles & SFX**: Toggle `showSubtitles` and `hasSfx` in `AUDIO_CONFIG` or directly in Remotion Studio.
+
+### Rendering AI vs AGI
+```bash
+# Render Landscape (1920x1080) -> out/ai-vs-agi-landscape.mp4
+npm run render:landscape
+
+# Render Vertical (1080x1920) -> out/ai-vs-agi-vertical.mp4
+npm run render:vertical
+```
