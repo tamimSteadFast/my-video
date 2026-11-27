@@ -51,6 +51,8 @@ import { PagePilotPromo } from "./videos/pagepilot-promo/PagePilotPromo";
 import { TOTAL_FRAMES as PAGEPILOT_FRAMES } from "./videos/pagepilot-promo/narration";
 import { LlmExplainer } from "./videos/llm-explainer/LlmExplainer";
 import { LLM_TOTAL_FRAMES } from "./videos/llm-explainer/narration";
+import { SshStory, SSH_SCENE_COMPONENTS } from "./videos/ssh-story/SshStory";
+import { SSH_FPS, SSH_SCENES, SSH_TOTAL_FRAMES } from "./videos/ssh-story/narration";
 import { HelloWorld } from "./videos/hello-world/HelloWorld";
 import { Logo } from "./videos/hello-world/Logo";
 import { Title } from "./videos/hello-world/Title";
@@ -377,6 +379,28 @@ export const RemotionRoot: React.FC = () => {
           width={1080}
           height={1920}
         />
+      </Folder>
+
+      <Folder name="SSH-Story">
+        <Composition
+          id="SshStory"
+          component={SshStory}
+          durationInFrames={SSH_TOTAL_FRAMES}
+          fps={SSH_FPS}
+          width={1080}
+          height={1920}
+        />
+        {SSH_SCENES.map((sc, i) => (
+          <Composition
+            key={sc.id}
+            id={`SshScene${String(sc.id).padStart(2, "0")}`}
+            component={SSH_SCENE_COMPONENTS[i] as React.FC}
+            durationInFrames={sc.frames}
+            fps={SSH_FPS}
+            width={1080}
+            height={1920}
+          />
+        ))}
       </Folder>
 
       <Folder name="Examples">

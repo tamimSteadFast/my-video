@@ -1,0 +1,107 @@
+{
+  "title": "SSH — The Invisible Connection | A Developer's Secret",
+  "generatedWith": "Google Gemini 3.8 Flash TTS",
+  "totalScenes": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Scene 1",
+      "fileName": "scene_01_suspenseful_and_dramatic_scene_1.wav",
+      "emotion": "Suspenseful and Dramatic",
+      "targetDuration": 11,
+      "actualDuration": 20,
+      "narration": "সারাদিনের কাজ শেষ করে ঘুমাতে যাবে একজন Developer। ঠিক তখনই ফোনে একটা Notification! তার Website আর কাজ করছে না। অথচ Website-এর Server রয়েছে হাজার মাইল দূরে। এখন? এই রাতেই কি তাকে Server-এর কাছে ছুটে যেতে হবে?",
+      "generated": true
+    },
+    {
+      "scene": 2,
+      "title": "Scene 2",
+      "fileName": "scene_02_tense_and_curious_scene_2.wav",
+      "emotion": "Tense and Curious",
+      "targetDuration": 10,
+      "actualDuration": 14,
+      "narration": "না! তাকে কোথাও যেতে হবে না। নিজের Laptop সামনে রেখেই সে দূরের সেই Server-এ প্রবেশ করতে পারবে। Server-এর সামনে না দাঁড়িয়েও, নিজের ঘরে বসেই পুরো Server Control করা সম্ভব। কিন্তু কীভাবে?",
+      "generated": true
+    },
+    {
+      "scene": 3,
+      "title": "Scene 3",
+      "fileName": "scene_03_mysterious_reveal_scene_3.wav",
+      "emotion": "Mysterious Reveal",
+      "targetDuration": 10,
+      "actualDuration": 15,
+      "narration": "এই অদৃশ্য Connection-এর নাম SSH। যার পূর্ণরূপ Secure Shell। এটি এমন একটি Network Protocol, যার সাহায্যে Internet-এর মাধ্যমে নিরাপদে Remote Computer বা Server-এর সঙ্গে Connect হওয়া যায়।",
+      "generated": true
+    },
+    {
+      "scene": 4,
+      "title": "Scene 4",
+      "fileName": "scene_04_explanatory_and_engaging_scene_4.wav",
+      "emotion": "Explanatory and Engaging",
+      "targetDuration": 12,
+      "actualDuration": 18,
+      "narration": "চলো, এর পেছনের গল্পটা বুঝি। তোমার Laptop হলো SSH Client। আর দূরের Computer-টি হলো SSH Server। তুমি যখন Connection Request পাঠাও, Server প্রথমে তোমার পরিচয় যাচাই করে। Authentication সফল হলেই তৈরি হয় একটি Secure Connection।",
+      "generated": true
+    },
+    {
+      "scene": 5,
+      "title": "Scene 5",
+      "fileName": "scene_05_intriguing_and_technical_scene_5.wav",
+      "emotion": "Intriguing and Technical",
+      "targetDuration": 11,
+      "actualDuration": 20,
+      "narration": "কিন্তু Internet-এর মতো উন্মুক্ত Network দিয়ে Data পাঠালে অন্য কেউ যদি সেটি ধরে ফেলে? এখানেই SSH-এর আসল শক্তি। এটি Data Encrypted করে আদান-প্রদান করে। ফলে মাঝপথে কেউ Data Intercept করলেও সহজে তার অর্থ বুঝতে পারে না। আর SSH-এর Default Port হলো 22।",
+      "generated": true
+    },
+    {
+      "scene": 6,
+      "title": "Scene 6",
+      "fileName": "scene_06_educational_and_clear_scene_6.wav",
+      "emotion": "Educational and Clear",
+      "targetDuration": 12,
+      "actualDuration": 24,
+      "narration": "তবে Server কীভাবে বুঝবে, তুমি সত্যিই সেই Developer? এর জন্য রয়েছে Authentication। তুমি Password দিয়ে Login করতে পারো। আবার SSH Key ব্যবহার করতে পারো। এখানে Public Key Server-এ থাকে, আর Private Key তোমার কাছে নিরাপদে থাকে। Private Key দিয়ে তৈরি Signature যাচাই করেই Server তোমার পরিচয় নিশ্চিত করে।",
+      "generated": true
+    },
+    {
+      "scene": 7,
+      "title": "Scene 7",
+      "fileName": "scene_07_practical_and_exciting_scene_7.wav",
+      "emotion": "Practical and Exciting",
+      "targetDuration": 15,
+      "actualDuration": 27,
+      "narration": "এবার নিজের Laptop-এ ফিরে আসি। Terminal Open করো। এবার লিখো, ssh user at 192 dot 168 dot 1 dot 100। Enter চাপো। Authentication সফল হলে তুমি চলে যাবে Remote Server-এর Terminal-এ। এবার whoami, pwd কিংবা ls-এর মতো Command চালিয়ে Server-এর তথ্য দেখতে এবং কাজ করতে পারবে।",
+      "generated": true
+    },
+    {
+      "scene": 8,
+      "title": "Scene 8",
+      "fileName": "scene_08_energetic_and_inspiring_scene_8.wav",
+      "emotion": "Energetic and Inspiring",
+      "targetDuration": 11,
+      "actualDuration": 19,
+      "narration": "এভাবেই একজন Developer Linux Server Manage করতে পারে, Node.js Application Deploy করতে পারে, Git Repository Access করতে পারে এবং Remote Server-এর বিভিন্ন কাজ সম্পন্ন করতে পারে। প্রতিদিনের Backend Development এবং DevOps-এর কাজে SSH একটি অত্যন্ত গুরুত্বপূর্ণ Tool।",
+      "generated": true
+    },
+    {
+      "scene": 9,
+      "title": "Scene 9",
+      "fileName": "scene_09_serious_and_responsible_scene_9.wav",
+      "emotion": "Serious and Responsible",
+      "targetDuration": 9,
+      "actualDuration": 15,
+      "narration": "তবে মনে রেখো, ক্ষমতার সঙ্গে দায়িত্বও আসে। নিজের Private Key কখনো অন্যের সঙ্গে Share করবে না। Strong Authentication ব্যবহার করবে এবং Server-এর Access Permission সঠিকভাবে Configure করবে।",
+      "generated": true
+    },
+    {
+      "scene": 10,
+      "title": "Scene 10",
+      "fileName": "scene_10_powerful_and_inspirational_scene_10.wav",
+      "emotion": "Powerful and Inspirational",
+      "targetDuration": 10,
+      "actualDuration": 20,
+      "narration": "ফোনের সেই Notification-এর কথা মনে আছে? এবার Developer তার ঘরে বসেই Server-এ প্রবেশ করল, সমস্যা খুঁজে বের করল এবং Website আবার সচল করল। এটাই SSH-এর শক্তি। দূরত্ব এখানে কোনো বাধা নয়। তুমি যদি একজন Developer হতে চাও, SSH শেখা শুরু করো আজ থেকেই।",
+      "generated": true
+    }
+  ]
+}
